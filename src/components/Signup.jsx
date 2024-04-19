@@ -8,6 +8,7 @@ const acquisitionChannel = fd.getAll('acquisition');
  data.acquisition = acquisitionChannel;
   
     console.log(data);
+    
 }
 
   return (
