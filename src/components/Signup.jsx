@@ -24,7 +24,7 @@ const acquisitionChannel = fd.getAll('acquisition');
       <div className="control-row">
         <div className="control">
           <label htmlFor="password">Password</label>
-          <input id="password" type="password" name="password" />
+          <input id="password" type="password" name="password" required minLength={6}/>
         </div>
 
         <div className="control">
@@ -42,12 +42,12 @@ const acquisitionChannel = fd.getAll('acquisition');
       <div className="control-row">
         <div className="control">
           <label htmlFor="first-name">First Name</label>
-          <input type="text" id="first-name" name="first-name" />
+          <input type="text" id="first-name" name="first-name" required/>
         </div>
 
         <div className="control">
           <label htmlFor="last-name">Last Name</label>
-          <input type="text" id="last-name" name="last-name" />
+          <input type="text" id="last-name" name="last-name" required/>
         </div>
       </div>
 
